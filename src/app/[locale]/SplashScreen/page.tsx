@@ -97,7 +97,7 @@ function LandingPage() {
               </div>
             </div>
             <div>
-            <Link href={`/${selectedLocale}/schedualforms`}>
+            <Link href={`/${selectedLocale}/SchedualADemo`}>
               <button
                 className="flex items-center  gap-3 border-[#D49E24] text-[14px] text-[#D49E24] border 
               p-4 pt-2 pb-2 rounded-[42.67px]"
