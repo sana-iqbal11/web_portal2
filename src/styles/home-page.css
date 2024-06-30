@@ -1,0 +1,137 @@
+/* ibm-plex-sans-arabic-regular - latin */
+@font-face {
+  font-family: "IBM Plex Sans Arabic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./../../src/fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "IBM Plex Sans Arabic Bold";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./../../src/fonts/IBM_Plex_Sans_Arabic/IBMPlexSansArabic-Bold.ttf")
+    format("truetype");
+}
+.home-container #home{
+  min-height: 100%;
+  padding: 4rem 0;
+}
+.home-container .card-container{
+    min-height: unset;
+}
+.home-container .bold{
+  font-family: "IBM Plex Sans Arabic Bold";
+  font-weight: normal !important;
+}
+.home-container * {
+  font-family: "IBM Plex Sans Arabic";
+  letter-spacing: normal;
+}
+.home-container .card-container h5:first-child{
+    letter-spacing: normal;
+}
+
+.nav-Container {
+ width: 90%;
+}
+.New-Nav-Mobile
+{
+ background-color: white;
+    padding : 1rem;
+    direction: rtl;
+    width: 100% !important;
+      
+  
+}
+
+
+/* -----------Loading Screen Animation(HTML on HTML.js)------------------*/
+
+.request-loader {
+position: relative;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 150px;
+width: 150px;
+border-radius: 100%;
+background: #FFFFFF;
+box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
+
+
+}
+
+
+
+.request-loader>img {
+  position: relative;
+  font-size: 72px;
+  top: 5px;
+  left: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.request-loader::after {
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  border: 8px solid rgba(0,0,0,0.2);
+  border-radius: 100%;
+  animation-name: ripple;
+  animation-duration: 2s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  z-index: -1;
+}
+
+.request-loader::before {
+  opacity: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0;
+  bottom: 0;
+  content: '';
+  height: 100%;
+  width: 100%;
+  border: 8px solid rgba(0,0,0,0.2);
+  border-radius: 100%;
+  animation-name: ripple;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(.65,0,.34,1);
+  z-index: -1;
+}
+
+
+@keyframes ripple {
+from {
+  opacity: 1;
+  transform: scale3d(0.75,0.75,1);
+}
+
+to {
+  opacity: 0;
+  transform: scale3d(1.5,1.5,1);
+}
+}
+

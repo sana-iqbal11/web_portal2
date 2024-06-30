@@ -1,0 +1,8 @@
+<svg id="Group_23528" data-name="Group 23528" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <rect id="Rectangle_27847" data-name="Rectangle 27847" width="28" height="28" fill="#fafbfd" opacity="0"/>
+  <g id="answer" transform="translate(7 2)">
+    <path id="Path_7400" data-name="Path 7400" d="M25.5,0h-12A1.5,1.5,0,0,0,12,1.5v21A1.5,1.5,0,0,0,13.5,24h12A1.5,1.5,0,0,0,27,22.5V1.5A1.5,1.5,0,0,0,25.5,0Zm0,21.75a.75.75,0,0,1-.75.75H14.25a.75.75,0,0,1-.75-.75V2.25a.75.75,0,0,1,.75-.75h10.5a.75.75,0,0,1,.75.75Z" transform="translate(-12)" fill="#fafbfd"/>
+    <path id="Path_7401" data-name="Path 7401" d="M29.735,6H26.747a.747.747,0,0,0,0,1.494h2.988a.747.747,0,0,0,0-1.494Z" transform="translate(-20.741 -3.759)" fill="#fafbfd"/>
+    <circle id="Ellipse_1510" data-name="Ellipse 1510" cx="1.5" cy="1.5" r="1.5" transform="translate(6.03 19.096)" fill="#fafbfd"/>
+  </g>
+</svg>

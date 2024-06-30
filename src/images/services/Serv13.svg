@@ -1,0 +1,49 @@
+<svg id="Group_23437" data-name="Group 23437" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="58" viewBox="0 0 58 58">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4e9d2"/>
+      <stop offset="1" stop-color="#fbfbfb" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <path id="path2279" d="M0-682.665H40v40H0Z" transform="translate(0 682.665)" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="icons8-consultation-100" width="58" height="58" fill="#fff" opacity="0"/>
+  <circle id="Ellipse_1468" data-name="Ellipse 1468" cx="19" cy="19" r="19" transform="translate(0 0.204)" fill="url(#linear-gradient)"/>
+  <g id="g2253" transform="translate(9 9)">
+    <g id="g2255" transform="translate(5.226 14.768)">
+      <path id="path2257" d="M0,0H15.027" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+    <g id="g2259" transform="translate(5.226 18.885)">
+      <path id="path2261" d="M0,0H15.027" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+    <g id="g2263" transform="translate(5.226 23.001)">
+      <path id="path2265" d="M0,0H15.027" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+    <g id="g2267" transform="translate(5.226 27.118)">
+      <path id="path2269" d="M0,0H15.027" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+    <g id="g2271" transform="translate(5.226 33.139)">
+      <path id="path2273" d="M0,0H7.533" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+    </g>
+    <g id="g2275">
+      <g id="g2277" clip-path="url(#clip-path)">
+        <g id="g2283" transform="translate(0.803 0.588)">
+          <path id="path2285" d="M-222.326-118.825h-1.016a.728.728,0,0,1-.728-.728v-1.9a.728.728,0,0,1,.728-.727h12.029a.727.727,0,0,1,.728.727v1.9a.727.727,0,0,1-.728.728h-8.274m13.968,2.717v-7.8a2.313,2.313,0,0,0-2.313-2.313H-227.81a2.313,2.313,0,0,0-1.636.677l-6.041,6.041a2.313,2.313,0,0,0-.677,1.635v28.161a2.313,2.313,0,0,0,2.313,2.313h25.919a2.313,2.313,0,0,0,2.313-2.313v-.789" transform="translate(236.163 126.221)" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        </g>
+        <g id="g2287" transform="translate(27.852 28.514)">
+          <path id="path2289" d="M0,0V5.918a.658.658,0,0,0,1,.56L3.151,5.156a.658.658,0,0,1,.689,0L5.989,6.478a.658.658,0,0,0,1-.56V0" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        </g>
+        <g id="g2291" transform="translate(23.502 13.44)">
+          <path id="path2293" d="M-126.06-200.563a4.325,4.325,0,0,1-4.325-4.325,4.325,4.325,0,0,1,4.325-4.325,4.325,4.325,0,0,1,4.325,4.325A4.325,4.325,0,0,1-126.06-200.563Zm7.54-3.335a1.757,1.757,0,0,1,0-1.978,1.757,1.757,0,0,0-.859-2.643,1.757,1.757,0,0,1-1.163-1.6,1.757,1.757,0,0,0-2.248-1.633,1.757,1.757,0,0,1-1.881-.611,1.747,1.747,0,0,0-1.389-.682,1.747,1.747,0,0,0-1.389.682,1.757,1.757,0,0,1-1.882.611,1.757,1.757,0,0,0-2.248,1.633,1.757,1.757,0,0,1-1.163,1.6,1.757,1.757,0,0,0-.859,2.643,1.757,1.757,0,0,1,0,1.978,1.757,1.757,0,0,0,.859,2.643,1.757,1.757,0,0,1,1.163,1.6h0a1.757,1.757,0,0,0,2.023,1.684,1.772,1.772,0,0,0,.225-.05,1.757,1.757,0,0,1,1.882.611,1.757,1.757,0,0,0,2.779,0,1.757,1.757,0,0,1,1.881-.611,1.775,1.775,0,0,0,.225.05,1.757,1.757,0,0,0,2.023-1.684h0a1.757,1.757,0,0,1,1.163-1.6A1.757,1.757,0,0,0-118.519-203.9Z" transform="translate(133.906 213.046)" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        </g>
+        <g id="g2295" transform="translate(27.023 17.274)">
+          <path id="path2297" d="M-69.481,0a4.325,4.325,0,0,0-4.325,4.325,4.324,4.324,0,0,0,4.325,4.325,4.324,4.324,0,0,0,4.325-4.325A4.325,4.325,0,0,0-69.481,0Z" transform="translate(73.805)" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        </g>
+        <g id="g2299" transform="translate(1.011 0.795)">
+          <path id="path2301" d="M-115.486,0V5.754a1.434,1.434,0,0,1-1.434,1.434h-5.754" transform="translate(122.674)" fill="none" stroke="#07242e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

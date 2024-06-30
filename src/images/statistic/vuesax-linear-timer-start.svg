@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="52.913" height="38" viewBox="0 0 52.913 38">
+  <g id="vuesax_linear_timer-start" data-name="vuesax/linear/timer-start" transform="translate(-364 -188)">
+    <g id="timer-start" transform="translate(364 188)">
+      <path id="Vector" d="M0,0H38V38H0Z" fill="none" opacity="0"/>
+      <g id="Group_3" data-name="Group 3" transform="translate(3.967 5.554)">
+        <path id="Vector-2" data-name="Vector" d="M0,0V7.935" transform="translate(13.842 5.908)" fill="none" stroke="#0f242d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Vector-3" data-name="Vector" d="M0,0V4" transform="translate(13.458 14.074) rotate(50)" fill="none" stroke="#0f242d" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <path id="Vector-4" data-name="Vector" d="M13.842,27.685A13.842,13.842,0,1,1,27.685,13.842" transform="translate(0 0)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <text id="_24.hr" data-name="24.hr" transform="translate(17.946 28.359)" fill="#ddb669" font-size="13" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="0" y="0">24.hr</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

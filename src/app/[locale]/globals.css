@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+}
+.scroll-container {
+  overflow-y: scroll;
+  height: 100vh;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.scroll-container {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  flex-direction: column;
+  animation: scroll 10s linear 1;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+.shwra-image {
+  background-image: url("../../../public/pattern.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.wave-container {
+  width: 100%;
+  height: 2px;
+  overflow: hidden;
+  position: relative;
+  background-color: var(--tertiary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wave {
+  left: -50%; /* Start off-screen to the left */
+  width: 200%; /* Double the width to create a wave */
+  height: 3px;
+  background: var(--secondary-color);
+  animation: moveWave 2s linear infinite;
+  z-index: 1000;
+}
+
+@keyframes moveWave {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(
+      100%
+    ); /* Move the wave fully off-screen to the right */
+  }
+}
+
+/* buttons styling */
+
+.button_outlined {
+  @apply border-2
+    border-[var(--tertiary-color)]
+    hover:bg-[var(--tertiary-color)]
+    px-12 py-2 text-[var(--tertiary-color)]
+    hover:text-[var(--text-light)]
+    rounded-[4px]
+    text-[14px]
+    font-[500];
+}
+
+.button_filled {
+  @apply bg-[var(--primary-color)]
+    text-[var(--text-light)]  px-12 py-2
+    rounded-[4px]
+    text-[14px]
+    font-[500]
+    border-2
+    border-[var(--primary-color)]
+    /* border-[var(--primary-color)] */;
+}
+
+.button_outlined_2 {
+  @apply border border-2
+    border-[var(--primary-color)]
+    hover:!border-[var(--tertiary-color)]
+    hover:bg-[var(--tertiary-color)]
+    px-12 py-2 text-[var(--tertiary-color)]
+    text-[var(--primary-color)]
+    hover:text-[var(--text-light)]
+    rounded-[4px]
+    text-[14px]
+    font-[500];
+}
+
+.loading-container {
+  min-height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-gradient {
+  background: linear-gradient(89.79deg, #f5e9cf -4.39%, #edd9a7 102.4%);
+}
+
+/* customDatePicker.css */
+
+/* customDatePicker.css */
+
+/* Background color for the entire calendar */
+.custom-calendar {
+  background-color: #fff9eb !important; /* orange-200 */
+  border: none !important;
+}
+
+/* Style for the selected date */
+.custom-calendar .react-datepicker__day--selected,
+.custom-calendar .react-datepicker__day--keyboard-selected {
+  background-color: #D49E24; /* dark orange */
+  border-radius: 50%;
+  color: white;
+}
+
+.custom-calendar .react-datepicker__day--selected:hover,
+.custom-calendar .react-datepicker__day--keyboard-selected:hover {
+  background-color: #D49E24; 
+}
+
+/* Background color for the header */
+.custom-calendar .react-datepicker__header {
+  background-color: #fff9eb;
+  color: black !important;/* darken on hover */
+   /* orange-400 */
+}
+
+/* Optional: Adjust header text color */
+.custom-calendar .react-datepicker__current-month,
+.custom-calendar .react-datepicker__day-name {
+  /* color: white; */
+}

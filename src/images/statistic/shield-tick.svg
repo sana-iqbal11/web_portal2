@@ -1,0 +1,5 @@
+<svg id="shield-tick" xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 38 38">
+  <path id="Vector" d="M11.21.368l-7.9,2.977A5.494,5.494,0,0,0,0,8.111V19.875a7.7,7.7,0,0,0,2.739,5.447L9.547,30.4a7.207,7.207,0,0,0,8.138,0l6.808-5.083a7.7,7.7,0,0,0,2.739-5.447V8.111a5.5,5.5,0,0,0-3.309-4.782L16.023.368A8.051,8.051,0,0,0,11.21.368Z" transform="translate(5.399 3.163)" fill="none" stroke="#292d32" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path id="Vector-2" data-name="Vector" d="M0,4.259,2.549,6.808,9.358,0" transform="translate(14.329 14.535)" fill="none" stroke="#d7b674" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <path id="Vector-3" data-name="Vector" d="M0,0H38V38H0Z" transform="translate(38 38) rotate(180)" fill="none" opacity="0"/>
+</svg>

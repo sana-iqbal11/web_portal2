@@ -1,0 +1,811 @@
+/*-------------Designing Different Section-------------------*/
+
+/* Services Section Design */
+
+.Services-Card{
+    border: 2px solid #16151541;
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 5px #8A8C981A;
+   flex:1;
+}
+
+.Services-Card-Dekstop {
+  border: 2px solid #16151541;
+  width: 85%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px #8A8C981A;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 0 auto;
+}
+.mui-18sg6k4-MuiPaper-root-MuiDrawer-paper {
+  border-left: 0 !important;
+}
+.Services-Card-Dekstop-row {
+  border: 2px solid #16151541;
+  width: 85%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px #8A8C981A;
+  display: flex;
+  flex-direction: row !important;
+  flex: 1;
+  margin: 0 auto;
+}
+.Services-Card-Dekstop-header-row {
+  /* border: 2px solid #16151541; */
+  width: 85%;
+  border-radius: 15px;
+  box-shadow: 0 0 10px 5px #8A8C981A;
+  display: flex;
+  flex-direction: row !important;
+  flex: 1;
+  margin: 0 auto;
+  height: 5rem;
+}
+.Services-Card-Top{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-image: url('../images/Mobile/ServicesMobile/andrew-neel-TTPMpLl_2lc-unsplash@3x.png');
+   background-size: cover;
+   min-height: 200px;
+   
+}
+
+.Services-Card-Bottom{
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 2rem 2rem 1rem 2rem;
+ flex: 1
+ }
+
+ .Services-Card-Top-D{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url('../images/Mobile/ServicesMobile/andrew-neel-TTPMpLl_2lc-unsplash@3x.png'); */
+  background-size: cover;
+  min-height: 200px;
+  
+}
+
+.Services-Card-Bottom-D{
+   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem 2rem 1rem 2rem;
+flex: 1;
+}
+
+
+
+/*---------Desigining Carousel/Slider--------------*/
+.swiper {
+  max-width: 100% !important;
+  height: 100%;
+  display: flex;
+}
+
+ /*Css to change the position of the bullet and active color */
+
+.my-custom-pagination-div{
+ display: flex;
+ justify-content: center;
+ margin-top: 5rem;
+}
+
+ /*Css to change the size of the bullet and active color */
+
+
+ .swiper-pagination-bullet {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: #173039;
+}
+
+
+.swiper-pagination-bullet-active{
+background-color: #173039;
+opacity: 1;
+width: 20px;
+border-radius: 25%;
+}
+
+
+
+ /* Difference Secton */
+
+ .Tab-Parent{
+    display:flex;
+    margin: 4rem auto;
+    flex-direction: row;
+    border: 2px solid #F6EBD3;
+    border-radius: 34px;
+    padding: 4px;
+    width: 90%;
+    height: 64px;
+    
+ }
+ .Tab-Active{
+    background: linear-gradient(90deg,#F6EBD3,#EDD8A7);
+    border-radius: 54px;
+    width: 50%;
+    border: none;
+    color: var(--text-dark);
+    font-weight: bold;
+    font-size: 1.7rem;
+
+ }
+ 
+ .Tab-NotActive{
+    background: white;
+    border-radius: 24px;
+    width: 50%;
+    border: none;
+    color: var(--text-dark);
+    font-weight: 500;
+    font-size: 1.7rem;
+   
+
+ }
+
+ .Difference-List-Item{
+font-weight:600;
+font-size: 2rem;
+padding: 0 2rem;
+list-style: none;
+color:#07242eca;
+ }
+
+ @media (max-width:390px) {
+  .Tab-Active{
+   
+    font-weight: bold;
+    font-size: 1.4rem;
+
+ }
+ 
+ .Tab-NotActive{
+  
+    font-weight: 500;
+    font-size: 1.4rem;
+   
+
+ }
+ }
+
+ /* Stats Secton */
+
+ .Stat-Text{
+   align-items: center;
+   margin: 3rem 0;
+ }
+ .Stat-Text h1{
+   color: var(--tertiary-color);
+   font-weight: bolder;
+   font-size: 7rem;
+   margin: 0;
+
+ }
+ .Stat-Text h2{
+   font-weight: bold;
+   font-size: 2rem;
+   margin: 0;
+   color: var(--text-dark);
+ }
+
+ @media (min-width:768px) {
+  .Stat-Text h1{
+    
+    font-size: 9rem;
+ 
+  }
+  .Stat-Text h2{
+    font-size: 3rem;
+   font-weight: 500;
+
+  }
+ }
+
+ /* How To Use Section */
+
+ .HowToUse-First-Div {
+
+   list-style-type: none;
+   display: flex;
+   flex-direction: column;
+   font-weight: bolder;
+   padding: 1.4rem;
+   justify-content: center;
+ }
+ .HowToUse-First-Div>li{
+  flex: 1;
+ }
+
+ /*-----------for desinging Numbering Order in present section-----------*/
+
+ .HowToUse-First-Div>li>:nth-child(1) {
+color: #8A8C99;
+width: 2rem;
+height: 2rem;
+padding: 3;
+text-align: center;
+display: inline-block;
+cursor: pointer;
+margin-left: 5px;
+font-weight: normal;
+font-size: 1.5rem;
+
+ }
+ .HowToUse-First-Div>li>:nth-child(2) {
+  color: var(--tertiary-color);
+
+   }
+ 
+ .Selected-Point {
+  background: var(--tertiary-color);
+  color: white !important;
+   }
+
+   @media (max-width:380px) {
+    .HowToUse-First-Div>li{
+      font-size: 1.2rem ;
+     }
+     .HowToUse-First-Div{
+      font-weight: 700;
+     }
+     .HowToUse-First-Div>li>:nth-child(1) {
+      width: 1.6rem;
+      height: 1.6rem;
+      margin-left: 2px;
+      font-weight: normal;
+      font-size: 1rem;
+      padding: 2px;
+       }
+   }
+
+   @media (min-width:380px) and (max-width:455px) {
+    .HowToUse-First-Div>li{
+      font-size: 1.35rem;
+     }
+     .HowToUse-First-Div{
+      font-weight: 600;
+     }
+     .HowToUse-First-Div>li>:nth-child(1) {
+      width: 1.7rem;
+      height: 1.7rem;
+      margin-left: 2px;
+      font-weight: normal;
+      font-size: 1rem;
+      padding: 2px;
+      
+       }
+   }
+
+
+    @media (min-width:768px) {
+      .HowToUse-First-Div>li{
+        font-size: 3rem;
+        font-weight: normal;
+      }
+      .HowToUse-First-Div>li>:nth-child(1) {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+        margin: 0 20px 0 25px;        
+         }
+         .Selected-Line {
+  font-weight: 500 !important;
+         }
+    }
+
+   /*--------FAQ Mobile Design--------*/
+
+   /* Designing of React Bootstrap Accordion-------------- */
+
+
+  .accordion {
+    width: 90%;
+    margin: 2rem auto;
+
+  
+   }
+.accordion-item{
+border: none !important;
+border-radius: 12px !important;
+}
+/* Accordion Head Design When Accordion Is Closed */
+
+.accordion-button {
+  background:transparent !important;
+  color: var(--text-dark) !important;
+  font-size: 16px;
+  font-weight:900;
+  border-color: rgba(0,0,0,.125);
+  box-shadow: none !important;
+border-bottom: 1px solid #F6EBD3;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  height: 64px;
+
+}
+
+.accordion-button:focus{
+  border-bottom: 1px solid #F6EBD3
+
+}
+
+/* Design When Accordion Is Open */
+
+.accordion-button:not(.collapsed) {
+  background-color: #FBF7EE !important;
+  border: none !important;
+  font-size: 17px;
+
+
+}
+.accordion-body:not(.collapsed) {
+  color: #173039 !important;
+  background-color: #FBF7EE !important;
+  text-align: right;
+  padding: 1rem;
+  font-weight: 500;
+  font-size: 1.6rem;
+
+
+}
+
+.accordion-2 .accordion-item{
+  background-color: #07242E;
+
+}
+.accordion-2 .accordion-button {
+  background:transparent !important;
+  color: var(--text-dark) !important;
+  font: normal normal 300 28px/42px IBM Plex Sans Arabic;
+  letter-spacing: 0px;
+  color: #FAFBFD;
+  opacity: 1;
+  border-color: rgba(0,0,0,.125);
+  box-shadow: none !important;
+  border-bottom-color: #394B56 !important;
+  padding: 1rem;
+  padding-bottom: 2rem;
+  height: auto;
+background-color: #07242E;
+}
+.accordion-2 .accordion-button:not(.collapsed) {
+  background:transparent !important;
+  color: var(--text-dark) !important;
+  font: normal normal 300 28px/42px IBM Plex Sans Arabic;
+  letter-spacing: 0px;
+  color: #FAFBFD;
+  opacity: 1;
+  border-color: rgba(0,0,0,.125);
+  box-shadow: none !important;
+  border-bottom-color: #394B56 !important;
+  padding: 1rem;
+  padding-top: 3rem;
+  height: auto;
+background-color: #093544 !important;
+border: none  !important;
+
+
+
+}
+.accordion-2 .accordion-body:not(.collapsed){
+  background-color: #093544 !important;
+  padding:  2rem 1rem ;
+  border: none  !important;
+border-top: none !important;
+border-bottom-right-radius: none !important;
+border-bottom-left-radius: none !important;
+font-weight: 100 !important;
+font-size: 1.6rem;
+color: #DEE2F0 !important;
+opacity: 1 !important;
+}
+
+.FaqBtn {
+  background: none;
+  border: 2px solid #8A8C99;
+  color: var(--text-dark);
+  margin: 3rem 0;
+  padding: 1rem 3rem;
+  font-weight: bolder;
+  font-size: 2rem;
+border-radius: 9px;
+}
+
+.FaqBtn:hover{
+  background-color: var(--tertiary-color);
+border-color: transparent;
+
+
+}
+/* For Setting Acocrdion Icon Width And COlor */
+.accordion {
+  --bs-accordion-btn-icon: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 16 16' fill='%23DDB669'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e  ");
+  --bs-accordion-btn-icon-width:2rem !important;
+  --bs-accordion-btn-active-icon:  url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23black'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+@media (min-width:768px) {
+
+  .accordion{
+    width: 100%;
+  }
+
+.accordion-item:hover{
+  box-shadow: 0px 10px 20px #8A8C981A !important;
+  border: none !important;
+  transition: all;
+  transition-duration: .2s;
+}
+  .accordion-button {
+font-size: 2rem;
+font-weight: 500;
+border-bottom: 1px solid  #DEE2F0 !important;
+
+  }
+  .accordion-button:not(.collapsed) {
+    padding: 2rem 1rem ;
+    font-size: 2rem;
+font-weight: 800;
+border: 2px solid var(--tertiary-color) !important;
+border-bottom: none !important;
+border-top-right-radius: 12px !important;
+border-top-left-radius: 12px !important;
+  }
+  .accordion-body:not(.collapsed){
+    padding:  2rem 1rem ;
+    border: 2px solid var(--tertiary-color) !important;
+border-top: none !important;
+border-bottom-right-radius: 12px !important;
+border-bottom-left-radius: 12px !important;
+
+  }
+  
+}
+
+   /*--------Footer Mobile Design-------------*/
+
+
+.Footer-Container {
+  background-color: #FBF7EE;
+ min-height: 20vh;
+margin: 3rem 0 0 0;
+padding: 1.5rem 4rem 0 4rem;
+
+}
+
+.Footer-SubContainer{
+  display: flex;
+  justify-content: space-between;
+  height:85%;
+  align-items: center;
+
+}
+
+.Footer-Links{
+  color: black !important;
+  display: flex;
+  gap: 3rem;
+}
+
+.Footer-Logo {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+ 
+}
+
+.Footer-SubContainer2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 15%;
+}
+
+
+
+/*-----------------------------------------  Seperate Pages Design  ----------------------------------------------*/
+
+
+/*-----How to Use Page----------*/
+
+.HowToUse-Content {
+  width: 100%;
+  align-self: center;
+  margin:0 auto;
+}
+.HowToUse-Text-Wrapper {
+  width: 50%;
+  align-self: stretch;
+}
+.HowToUse-Image-Wrapper {
+  width: 50%;
+}
+
+@media (min-width:768px) {
+  
+.HowToUse-Image-Wrapper {
+  width: 30%;
+}
+.HowToUse-Text-Wrapper {
+  width: 70%;
+}
+.HowToUse-Content {
+  width: 60%;
+}
+}
+
+
+/* Why Us Page Design */
+
+.WhyUsTitle {
+  font-size: 3.7rem;
+  color: var(--text-dark);
+  font-weight: 500;
+}
+.WhyUsBody{
+  color: #000000d8;
+  font-weight:600;
+  font-size: 1.8rem;
+  line-height:31px;
+}
+
+.whyUsBody-Parent
+{
+  width: 100%;
+}
+.whyUsTitle-Parent{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.whyUs-Container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width:768px) {
+
+.whyUsBody-Parent
+{
+  width: 60%;
+  display: flex;
+}
+.whyUsTitle-Parent{
+  width: 40%;
+
+}
+.whyUs-Container {
+  flex-direction:row;
+  margin-top: 8rem;
+}
+
+.WhyUsTitle {
+  font-size: 4rem;
+  font-weight: 600;
+}
+
+}
+
+/* Team page Design */
+
+.TeamTitle {
+  color: var(--tertiary-color);
+  font-weight: 500;
+  font-size: 3rem;
+
+}
+.TeamSubTitle {
+  font-weight: 700;
+  font-size: 1.8rem;
+  padding: 0 0 1.5rem 0;
+ border-bottom: 2px solid var(--tertiary-color);
+ margin-top: -7px;
+
+
+}
+
+.Team-Card-BodyWrapper{
+background:#FFF;
+border-radius:1rem;
+filter:  drop-shadow(0px 10px 10px #0000001A);
+/* box-shadow: 0 4rem 0rem .5rem #0000001A; */
+position:absolute;
+bottom:0;
+width:100%;
+z-index: 999;
+}
+.Team-Active-Card {
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--tertiary-color);
+  width: 90%;
+  position: absolute;
+  border-radius: 2rem;
+  height: 4rem;
+  bottom: 2rem;
+  left: 1rem;
+}
+
+@media (max-width:1100px) {
+ 
+  .Team-Card-BodyWrapper{
+  bottom: -35px;
+  }
+  .Team-Active-Card {
+  bottom: 0;
+
+  }
+
+
+}
+/*---------Legal Advisor Page Design-------------*/
+
+.LA-ButtonWrapper
+{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+}
+
+.LA-ImageWrapper
+{
+  width: 100%;
+order: 2;
+
+}
+
+@media (min-width:768px) {
+  
+  .LA-ButtonWrapper
+{
+ 
+  width: 65%;
+  order: 1;
+gap: 2rem;
+margin-top: -6rem;
+
+  
+}
+
+.LA-ImageWrapper
+{
+width: 35%; 
+}
+}
+
+@media (min-width:1200px) {
+  
+  .LA-ButtonWrapper
+  {
+   
+    width: 60%;
+    order: 1;
+  gap: 2rem;
+    margin-right: 20rem;
+  }
+  
+  .LA-ImageWrapper
+  {
+  width: 40%; 
+  order: 2;
+
+  }
+}
+
+/*---------------------------------RESPONSIVENESS---------------------------------*/
+
+/* Services Section Design */
+
+
+@media (max-width:555px) {
+  .Services-Card{
+    width: 90%;
+    /* height: 480px; */
+}
+}
+@media (max-width:375px) {
+  .Services-Card{
+    width: 82%;
+    /* height: 480px; */
+}
+ 
+ }
+
+
+  /* How To Use Section */
+ 
+  @media (max-width:500px) {
+    .HowToUse-First-Div{
+
+    padding: 0;
+    gap: 1rem;
+    margin-right: 9px;
+
+    }
+  }
+
+
+  /*--------Footer Mobile Design-------------*/
+
+@media (max-width:400px) {
+  
+  .Footer-SubContainer{
+    flex-direction: column;
+    justify-content: center;
+    gap:1rem
+  }
+
+}
+
+
+/*----------------SubComponents Design----------------*/
+.HeadingUnderline{
+  font-weight: 500;
+  font-size: 4rem;
+  direction: rtl;
+  margin: 12rem 0  6rem 0;
+  position: relative;
+}
+.HeadingUnderline::after {
+  content: "";
+  background-color: var(--tertiary-color);
+  display: block;
+  position: absolute;
+  bottom: -13px;
+  right: 0;
+  width: 60px;
+  height: 2px;
+}
+
+
+.Footer-ImageLink {
+
+display:flex;
+width:150px;
+height: 45px;
+
+
+align-items: center;
+border-radius: 4px;
+gap: 1rem;
+
+  background:white;
+border: 1px solid var(--tertiary-color);
+justify-content: center;
+
+}
+
+  .Footer-LinkText
+  {
+    display: none;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1rem;
+    color: black !important;
+
+  }
+ 
+
+
+

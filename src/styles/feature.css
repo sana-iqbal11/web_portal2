@@ -1,0 +1,106 @@
+.card-container {
+  padding: 2rem 4rem;
+  min-height: 160px;
+  position: relative;
+}
+.card-container h5:first-child {
+  margin-bottom: 2rem;
+}
+.card-container.after::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 1px;
+  background-color: #eee;
+  left: 102.5%;
+  top: 0;
+
+}
+@media (max-width: 768px) {
+  .card-container {
+    padding: 0rem;
+    display: block;
+  }
+  .card-container.home {
+    padding: 2rem;
+    border-bottom: 0 !important;
+    border-radius: 10px;
+    box-shadow: -4px 4px 15px #eee;
+    margin: 10px 0;
+    max-width: 100% !important;
+    height: 90%;
+    display: block;
+  }
+  .card-container.after::after {
+    content: none;
+  }
+  .card-container h5:first-child {
+    margin-bottom: 1rem;
+  }
+}
+
+
+/*----------------------------*/
+
+.Feature-Wrapper-Dekstop{
+  border: 1px solid #F6EBD3;
+  border-radius: 34px;
+  margin: 5rem 0 12rem 0;
+
+}
+
+.Feature-Text-Container-Dekstop {
+  margin:0;
+  width:100%;
+  padding:16px 0 0 0 
+}
+.Tab-Parent-Dekstop{
+  display:flex;
+  flex-direction: row;
+  border: 1px solid #F6EBD3;
+  border-top-left-radius: 34px;
+  border-bottom-left-radius: 34px;
+  border-top-right-radius: 34px;
+  padding: 4px;
+  height: 58px;
+  
+}
+.Tab-Active-Dekstop{
+  background: linear-gradient(90deg,#F6EBD3,#EDD8A7);
+  border-top-left-radius: 34px;
+  border-bottom-left-radius: 34px;
+  border-top-right-radius: 34px;
+  width: 50%;
+  border: none;
+  color: var(--text-dark);
+  font-weight: 700;
+  font-size: 1.8rem;
+
+}
+
+.Tab-NotActive-Dekstop{
+  background: white;
+  border-radius: 24px;
+  width: 50%;
+  border: none;
+  color: var(--text-dark);
+  font-weight: 700;
+  font-size: 1.8rem;
+ 
+
+}
+
+.Difference-List-Item-Dekstop{
+font-weight:500;
+font-size: 1.7rem;
+padding: 0 2rem;
+list-style: none;
+color:#07242eca;
+}
+
+
+/* For tooltip design */
+ .large-tooltip .MuiTooltip-tooltip {
+  font-size: 8rem !important; /* Adjust the font size to your desired value */
+  padding: 8px 4px; /* Adjust the padding to your desired value */
+}
